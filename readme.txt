@@ -33,6 +33,8 @@ ProxyPassReverse /suggest http://fluid-dev01.vitry.exploit.anticorp:8080/1/beta/
     Allow from all
 </Location>
 
+3. Restart Apache
+
 == Customize your interface ==
 
 1. Modify HTML structure in index.html
