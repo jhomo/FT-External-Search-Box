@@ -26,7 +26,9 @@ $(function() {
                     // Here you can modify structure of suggestions
                     // type = "PUBLICATION" or "TOPIC"
                     // value = title of documents
-                    return object.type + ', ' + object.value;             
+                    // return object.type + ', ' + object.value;
+                    // return '<div class="' + object.type + '">' + object.value + '</div>';
+                    return object.value;
                 }));
             }
          });
